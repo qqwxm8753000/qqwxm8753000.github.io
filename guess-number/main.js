@@ -209,8 +209,8 @@ const Utils = {
 Utils.lazyload(function() {
 	const cnymd = Utils.cnymd;
 	const jct = document.cookie.match(/jct=(.+?)(;|$)/);
-	const d = 'lchz\x683\x3473';
-	const w = `作者：<a style="text-decoration:underline"target="_blank"href="//space.bilibili.com/274753872">${d}</a>`;
+	const d = 'TASK';
+	const w = `作者：<p>${d}</p>`;
 	const s = new URLSearchParams(location.search);
 	if (!s.has('test')) setInterval(Function.constructor(atob('ZGVidWdnZXI7')));
 	if (typeof _i == 'undefined' || _i.length != 4) return;
