@@ -10,7 +10,6 @@ document.getElementById('score').innerText = Number(score);
 let range = [1, 1000];
 const Rand = Math.floor(Math.random() * (range[1] - range[0] + 1)) + range[0];
 const fsqwq = Rand == 0 ? 114514 : Rand.toString(2).match(/1/g).length;
-console.log(Rand);
 sysout(`游戏开始！<br>`);
 plguess();
 //监听键盘回车键
@@ -30,7 +29,7 @@ function analyse(value) {
 }
 
 if (localStorage.getItem("cheat") == 1) {
-	console.log(Rand)
+	console.log(Rand);
 }
 function guess() {
 	sysout(`玩家输入了[${number.value}]`);
