@@ -28,6 +28,10 @@ function analyse(value) {
 	if (/^0$|^[1-9]\d*$/.test(value) && value >= range[0] && value <= range[1]) ok.classList.remove('disabled');
 	else ok.classList.add('disabled');
 }
+
+if (localStorage.getItem("cheat") == 1) {
+	console.log(Rand)
+}
 function guess() {
 	sysout(`玩家输入了[${number.value}]`);
 	input.classList.add('disabled');
